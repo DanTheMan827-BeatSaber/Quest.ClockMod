@@ -112,8 +112,6 @@
         "xstddef": "cpp",
         "xtr1common": "cpp",
         "xtree": "cpp",
-        "xutility": "cpp",
-        "format": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "Enabled"
+        "xutility": "cpp"
+    }
 }

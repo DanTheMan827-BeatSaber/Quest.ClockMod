@@ -1,3 +1,5 @@
+.cache/
+
 # Prerequisites
 *.d
 
@@ -34,9 +36,10 @@
 # VSCode config stuff
 !.vscode/c_cpp_properties.json
 !.vscode/tasks.json
+!.vscode/settings.json
 
-# Visual Stuido Stuff
-.vs/
+# Jetbrains IDEs
+.idea/
 
 # NDK stuff
 out/
@@ -45,13 +48,23 @@ out/
 [Oo]bj/
 [Oo]bjs/
 ndkpath.txt
-*.log
 *.zip
-extern/
+*.txt
+*.log
 Android.mk.backup
+
+# QPM stuff
+[Ee]xtern/
 *.qmod
-*.prolog
-*.cmake
-/CMakeSettings.json
-/build
-.cache
+mod.json
+qpm_defines.cmake
+![Cc][Mm]ake[Ll]ists.txt
+
+# CMake stuff
+[Bb]uild/
+cmake-build-*/
+extern.cmake
+
+# QMOD Schema
+mod.json.schema
+include/Hooking.hpp
